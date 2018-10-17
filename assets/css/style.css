@@ -41,20 +41,36 @@ nav a:first-child{
     height: auto;
     margin-right: 25px;
 }
-#image-container{
-    width: 274px;
+img{
+    margin: 10px;
+}
+#image-container-1{
+    bottom: 150px;
+    width: 150px;
     padding: 0;
     overflow: auto;
 }
-#image-container:nth-child(even){
-    margin-right: 70px;
+#image-container-2{
+    bottom: 150px;
+    width: 150px;
+    padding: 0;
+    overflow: auto;
 }
-#image-container:nth-child(odd){
-    margin-left: 30px;
+#image-container-3{
+    bottom: 150px;
+    width: 150px;
+    padding: 0;
+    overflow: auto;
 }
-#image-container img{
-    width: 100%;
-    border: 0 none;
+#image-container-4{
+    bottom: 150px;
+    width: 150px;
+    padding: 0;
+    overflow: auto;
+}
+#image-one{
+    position: relative;
+    bottom: 150px;
 }
 #image-container h3{
     bottom: 10px;
